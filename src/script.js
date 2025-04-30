@@ -132,7 +132,7 @@ const translations = {
         // Sobre
         'about': 'Sobre mim',
         'challenges': 'Em busca de novos desafios',
-        'description': 'Meu nome é Thalis,sou estudante de Ciência da Computação e desenvolvedor em formação com foco em tecnologias web. Tenho conhecimentos em HTML, CSS e JavaScript, e estou me aprofundando cada vez mais no desenvolvimento Full-Stack. Busco minhas primeiras oportunidades como freelancer para aplicar o que aprendeu, aprender ainda mais com projetos reais e entregar soluções funcionais e bem feitas. Fora da programação, gosto de desafios criativos, resolver problemas e trabalhar em equipe.',
+        'description': 'Meu nome é Thalis, sou estudante de Ciência da Computação e desenvolvedor em formação com foco em tecnologias web. Tenho conhecimentos em HTML, CSS e JavaScript; e estou me aprofundando cada vez mais no desenvolvimento Full-Stack. Busco minhas primeiras oportunidades como freelancer para aplicar o que aprendi e, ao mesmo tempo, aprender ainda mais com projetos reais, entregando soluções funcionais e bem elaboradas. Fora da programação, gosto de desafios criativos, resolver problemas e trabalhar em equipe.',
         //skills
         'backend': 'Tenho experiência no desenvolvimento de back-end utilizando Node.js, Python e C#. Trabalho com APIs REST, bancos de dados relacionais e NoSQL, além de implementar autenticação, segurança e lógica de negócios eficiente.',
         'frontend': 'Desenvolvo interfaces modernas e responsivas utilizando HTML, CSS e JavaScript. Tenho experiência na criação de layouts intuitivos e dinâmicos, aplicando boas práticas de acessibilidade e usabilidade',
