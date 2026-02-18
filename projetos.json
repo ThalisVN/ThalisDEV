@@ -1,0 +1,20 @@
+{
+  "desktop": [
+    {
+      "titulo": "Organizador Financeiro",
+      "descricao": "Sistema para gestão de finanças pessoais desenvolvido com foco em tecnologias desktop.",
+      "imagem": "assets/img/projetos/embreve.png",
+      "linkDemo": "#",
+      "linkGithub": "https://github.com/ThalisVN"
+    }
+  ],
+  "web": [
+    {
+      "titulo": "Portfolio ThalisDev",
+      "descricao": "Landing page moderna, responsiva e com suporte a multilinguagem.",
+      "imagem": "assets/img/projetos/embreve.png",
+      "linkDemo": "#",
+      "linkGithub": "https://github.com/ThalisVN"
+    }
+  ]
+}

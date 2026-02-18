@@ -52,10 +52,6 @@
             <div class="icon"><i class="fa-brands fa-linkedin"></i></div>
             <span>Linkedin</span>
         </a>
-        <a href="https://x.com/ThalisDev?t=Scclhd6LsufQtE0dDK1wUQ&s=09" target="_blank" class="button">
-            <div class="icon"><i class="fa-brands fa-x-twitter"></i></div>
-            <span>X/Twitter</span>
-        </a>
             </div>
             
             
@@ -83,7 +79,7 @@
         </section>
 <!-- Sobre mim -->
         <section id="sobre">
-            <h2 data-translate="about">Sobre mim</h2>
+            <h2 data-translate="about" class="title">Sobre mim</h2>
             <div class="sobre-mim">
                 <Div class="text">
                     <h3 data-translate="challenges"> Em busca de novos desafios</h3>
@@ -93,7 +89,7 @@
             </div>
         </section>
 <!-- Habilidades -->
-        <section id="habilidades">
+        <section id="habilidades" class="title">
         <h2 data-translate="skills">Habilidades</h2>
             <div class="cards">
                 <div class="card">
@@ -119,81 +115,26 @@
                     <p data-translate="cellphone">Crio aplicativos móveis com Flutter, garantindo um design responsivo e fluído para Android e iOS. Utilizo arquitetura limpa e gerenciamento de estado para entregar apps eficientes e escaláveis.</p>
                 </div>
             </div>
-            <div class="linguages">
-                <img src="assets/img/csharp.svg" alt="C#">
-                <img src="assets/img/html.svg" alt="html">
-                <img src="assets/img/css.svg" alt="css">
-                <img src="assets/img/javascript.svg" alt="js">
-                <img src="assets/img/nodejs.svg" alt="node">
-                <img src="assets/img/react.svg" alt="react">
-                <img src="assets/img/vue.svg" alt="Vue">
-                <img src="assets/img/python.svg" alt="Python">
-            </div>
         </section>
 <!-- Portifolio -->
-<section id="portifolio">
-    <h2>Portifólio</h2>
-       <!-- Seção Desktop -->
-       <div class="platform-section">
-        <h3 class="platform-title desktop-title" data-translate="desktop">Projetos Desktop</h3>
+<section id="portifolio" class="title">
+    <h2 data-translate="portfolio">Portifólio</h2>
+    
+    <div class="platform-section">
+        <h3 class="platform-title desktop-title" data-translate="app">App</h3>
         <div class="projects-container">
             <button class="arrow left-arrow desktop-left">&larr;</button>
             <button class="arrow right-arrow desktop-right">&rarr;</button>
-            <div class="projects-carousel desktop-carousel">
-                <div class="project-card">
-                    <img src="assets/img/projetos/EM BREVE.png" alt="em breve">
-                    <h3>Em Breve</h3>
-                    <p>...</p>
-                    <div class="project-links">
-                        <a href="#" class="demo-link"><i class="fa-solid fa-link"></i></a>
-                        <a href="#" class="code-link"><i class="fa-brands fa-github"></i></a>
-                    </div>
-                </div>
-                <!-- Adicione mais projetos desktop -->
-            </div>
-        </div>
-        <!-- Seção Mobile -->
-    <div class="platform-section">
-        <h3 class="platform-title mobile-title" data-translate="mobile">Projetos Mobile</h3>
-        <div class="projects-container">
-            <button class="arrow left-arrow mobile-left">&larr;</button>
-            <button class="arrow right-arrow mobile-right">&rarr;</button>
-            <div class="projects-carousel mobile-carousel">
-                <div class="project-card">
-                    <img src="assets/img/projetos/EM BREVE.png" alt="em breve">
-                    <h3>Em Breve</h3>
-                    <p>...</p>
-                    <div class="project-links">
-                        <a href="#" class="demo-link"><i class="fa-solid fa-link"></i></a>
-                        <a href="#" class="code-link"><i class="fa-brands fa-github"></i></a>
-                    </div>
-                </div>
-                <!-- Adicione mais projetos mobile -->
-            </div>
+            <div id="desktop-carousel" class="projects-carousel"></div>
         </div>
     </div>
-    
 
-    <!-- Seção Web -->
     <div class="platform-section">
-        <h3 class="platform-title web-title" data-translate="web">Projetos Web</h3>
+        <h3 class="platform-title web-title" data-translate="web">Web</h3>
         <div class="projects-container">
             <button class="arrow left-arrow web-left">&larr;</button>
             <button class="arrow right-arrow web-right">&rarr;</button>
-            <div class="projects-carousel web-carousel">
-                <div class="project-card">
-                    <img src="assets/img/projetos/EM BREVE.png" alt="em breve">
-                    <h3>Em Breve</h3>
-                    <p>...</p>
-                    <div class="project-links">
-                        <a href="#" class="demo-link"><i class="fa-solid fa-link"></i></a>
-                        <a href="#" class="code-link"><i class="fa-brands fa-github"></i></a>
-                    </div>
-                </div>
-                <!-- Adicione mais projetos web -->
-            </div>
-        </div>
-    </div>
+            <div id="web-carousel" class="projects-carousel"></div>
         </div>
     </div>
 </section>
@@ -201,7 +142,7 @@
 <!-- Contato -->
         <section id="contato">
 
-            <h2 data-translate="contact">Contato</h2> 
+            <h2 data-translate="contact" class="title">Contato</h2> 
             <h3 data-translate="idea">Tansforme a sua ideia em realidade!</h3>
             <a href="mailto:thalisVn2003@gmail.com" class="email-link">
                 <span id="typed-email"></span><span class="cursor"></span>
