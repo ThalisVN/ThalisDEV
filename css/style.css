@@ -797,7 +797,19 @@ footer {
         margin: 0;
     }
 
+    .sobre-mim .text {
+        margin: 0;
+        padding: 0;
+    }
+
+    .text {
+        max-width: ;
+        margin: 10px 10px;
+        padding: 10px;
+    }
+
     #sobre p {
+        padding: 0 100px;
         font-size: 1.1em;
         text-align: center;
     }
@@ -854,6 +866,11 @@ footer {
 
 @media (max-width: 480px) {
     /* Ajustes finos para mobile */
+
+    #inicio {
+        padding: 60px 20px;
+        min-height: 45vh;
+    }
     #inicio h1 {
         font-size: 1.5em;
     }
