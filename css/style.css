@@ -695,9 +695,14 @@ footer {
         display: none;
     }
     
+    #inicio {
+        min-height: 93vh;
+    }
 
     /* Sobre */
-    .sobre-mim {
+    #sobre-mim {
+        margin: 100px;
+        padding: 40px;
         flex-direction: column;
         text-align: center;
     }
@@ -705,6 +710,16 @@ footer {
     .sobre-mim img {
         width: 250px;
         height: 250px;
+    }
+
+    .sobre-mim .text {        
+        margin: 1rem;
+        padding: 0;
+        max-width: 37rem;
+    }
+    .sobre-mim p {
+        font-size: 1.2em;
+        text-align: center; 
     }
 
     /* Habilidades */
@@ -826,13 +841,14 @@ footer {
 
     /* Contato */
     #contato {
-        height: auto;
+        height: 90vh;
         padding: 60px 20px;
     }
 
     .email-link {
         width: 100%;
         max-width: 400px;
+        max-height: 90vh;
     }
 }
 
