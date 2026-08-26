@@ -3,7 +3,7 @@
     {
       "titulo": "Agenda Electron",
       "descricao": "Agenda desktop desenvolvida com Electron com o objetivo de organizar tarefas e compromissos academicos.",
-      "imagem": "src/assets/projetos/AgendaElectron.png",
+      "imagem": "public/projetos/AgendaElectron.png",
       "linkDemo": "https://github.com/ThalisVN/agenda-electron",
       "linkGithub": "https://github.com/ThalisVN/agenda-electron"
     }
@@ -14,7 +14,7 @@
     {
       "titulo": "Dispatch Guide",
       "descricao": "Detonado do jogo Dispatch, com guias detalhados para cada fase e dicas para os jogadores.",
-      "imagem": "src/assets/projetos/DispatchGuide.png",
+      "imagem": "public/projetos/DispatchGuide.png",
       "linkDemo": "https://dispatchguide.vercel.app",
       "linkGithub": "https://github.com/ThalisVN/DispatchGuide"
     },
@@ -22,7 +22,7 @@
     {
       "titulo": "Keyforger",
       "descricao": "Gerador de senhas seguras e personalizadas, com opções de configuração avançadas para atender às necessidades dos usuários.",
-      "imagem": "src/assets/projetos/KeyForger.png",
+      "imagem": "public/projetos/KeyForger.png",
       "linkDemo": "https://keyforger.vercel.app",
       "linkGithub": "https://github.com/Desenvolvimento-UVV/Keyforger"
     },
@@ -30,7 +30,7 @@
     {
       "titulo": "Universo Literário",
       "descricao": "site desenvolvido para um trabalho acadêmico, com o objetivo de apresentar um resumo de livros e obras literárias.",
-      "imagem": "src/assets/projetos/UniversoLiterario.png",
+      "imagem": "public/projetos/UniversoLiterario.png",
       "linkDemo": "https://universo-literario.netlify.app",
       "linkGithub": "https://github.com/jhesslima/universo-literario?tab=readme-ov-file"
     }
