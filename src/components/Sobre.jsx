@@ -30,7 +30,7 @@ export default function Sobre() {
           </div>
           <div className="border border-border rounded-xl overflow-hidden bg-surface max-w-[320px] md:max-w-none">
             <img
-              src="src/assets/img/perfil.jpeg"
+              src="src\assets\img\perfil.jpeg"
               alt="Foto de Thalis"
               className="w-full block grayscale-[30%] contrast-[1.05]"
             />
